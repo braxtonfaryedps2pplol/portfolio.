@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Glutnvss | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="snow"></canvas>
+
+  <div class="container">
+    <header>
+      <h1>Glutnvss</h1>
+      <nav>
+        <a href="#about" class="nav-link active">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about" class="tab-content active">
+        <h2>About Me</h2>
+        <p>I’m Glutnvss — I investigate and expose online predators. My work focuses on protecting vulnerable people online.</p>
+      </section>
+
+      <section id="projects" class="tab-content">
+        <h2>Projects</h2>
+        <p>Coming soon: documentation and tools used in my investigations.</p>
+      </section>
+
+      <section id="contact" class="tab-content">
+        <h2>Contact</h2>
+        <p>You can reach me at: <a href="mailto:your@email.com">your@email.com</a></p>
+      </section>
+    </main>
+  </div>
+
+  <script src="snow.js"></script>
+  <script>
+    // Simple tab switching logic
+    const navLinks = document.querySelectorAll('nav a');
+    const tabs = document.querySelectorAll('.tab-content');
+
+    navLi
